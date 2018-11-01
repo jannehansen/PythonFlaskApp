@@ -7,5 +7,5 @@ application/json API's with Flask.
 ## Read more!
 
 The related blog article can be found on:
-- https://jannehansen.com/publish-ml-model/ (English)
-- https://jannehansen.com/fi/mallien-julkaiseminen/ (Finnish)
+- https://jannehansen.com/run-python-web-apps-on-azure/ (English)
+- [coming soonish] (Finnish)
