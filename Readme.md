@@ -8,4 +8,4 @@ application/json API's with Flask.
 
 The related blog article can be found on:
 - https://jannehansen.com/run-python-web-apps-on-azure/ (English)
-- [coming soonish] (Finnish)
+- https://jannehansen.com/fi/python-web-azuressa/ (Finnish)
