@@ -38,7 +38,7 @@ def hello():
     return render_template("hello.html"),200
 
 # The api method. Expects a parameter named "input"
-@app.route("/api")
+@app.route("/api", methods=["GET"])
 def api():
 
     retdict ={} 
@@ -60,7 +60,7 @@ def api():
         # print(msg)
         return msg,400
     
-    retJson = str(retdict).replace('\'','"')
+    retJson = json.dumps(retdict)
     app.logger.info("retjson :"+retJson)
 
     resp = make_response(retJson)
